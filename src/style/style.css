@@ -14,6 +14,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -25,7 +26,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
 }
 
 .box-blur {
@@ -107,7 +107,7 @@ img {
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    height: 45px;
+    height: 60px;
     width: 100%;
     border: 2px solid var(--text-color);
     border-radius: 50px;
@@ -115,7 +115,7 @@ img {
     padding-right: 15px;
     color: var(--text-color);
     font-weight: 550;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #list-links > a:hover {
@@ -128,7 +128,9 @@ img {
 .fi-brands-linkedin,
 .fi-rr-globe {
     display: flex;
-    font-size: 20.5px;
+    padding: 8px;
+    /* background-color: red; */
+    font-size: 22px;
 }
 
 .box-social-media {
@@ -137,7 +139,7 @@ img {
     padding: 5px;
     /* background-color: blue; */
     gap: 20px;
-    margin-top: 1rem;
+    margin-top: .2rem;
 }
 
 .fi-brands-instagram,
@@ -150,9 +152,10 @@ img {
     border: 2px solid var(--text-color);
     background-color: transparent;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 18.3px;
+    margin: 8px;
 }
 
 .fi-brands-instagram:hover,
@@ -164,7 +167,7 @@ img {
 }
 
 #box-footer {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 5px;
     color: var(--text-color);
 }
@@ -209,16 +212,20 @@ img {
         height: 100%;
     }
 
+    #list-links > a {
+        height: 50px;
+    }
+
     .box-main {
         flex: 2;
         height: 100%;
     }
 
     .box-social-media {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     #box-footer {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 }
