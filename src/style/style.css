@@ -182,7 +182,7 @@ img {
     transition: .2s;
 }
 
-@media (width >= 992px) and (orientation: landscape) {
+@media (width >= 577px) {
     body {
         background-image: url('https://th.bing.com/th/id/R.eed92dcfe3f3d47466e78a72402f78db?rik=WTyUCIAk%2bp%2fjDw&pid=ImgRaw&r=0');
     }
