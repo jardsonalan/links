@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import WidgetInfoUser from './views/WidgetInfoUser.vue';
 import WidgetHardSkills from './views/WidgetHardSkills.vue';
+import WidgetSocialMedia from './views/WidgetSocialMedia.vue';
 </script>
 
 <template>
@@ -13,6 +14,11 @@ import WidgetHardSkills from './views/WidgetHardSkills.vue';
           </v-col>
           <v-col cols="12">
             <WidgetHardSkills/>
+          </v-col>
+          <v-col cols="6">
+          </v-col>
+          <v-col cols="6">
+            <WidgetSocialMedia/>
           </v-col>
         </v-row>
       </v-container>
