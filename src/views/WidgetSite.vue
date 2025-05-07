@@ -5,7 +5,7 @@
   <v-container class="rounded-lg pa-0">
     <v-row no-gutters class="text-center">
       <v-col cols="12">
-        <v-btn class="w-100 bg-black rounded-lg container-button" height="60" variant="text">
+        <v-btn class="w-100 bg-black rounded-lg container-button" height="60" variant="text" href="https://jardsonalan.github.io/portfolio/" target="_blank">
           <v-icon size="30px" icon="fa-solid fa-globe" id="icon-web"/>
           <span class="ml-3">Portfolio</span>
         </v-btn>

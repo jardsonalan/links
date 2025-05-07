@@ -10,17 +10,17 @@
         </v-btn>
       </v-col>
       <v-col cols="6">
-        <v-btn class="bg-black rounded-lg container-button" height="50">
+        <v-btn class="bg-black rounded-lg container-button" height="50" href="https://www.instagram.com/jardson.alan/" target="_blank">
           <v-icon size="30" icon="fa-brands fa-instagram" id="icon-instagram"/>
         </v-btn>
       </v-col>
       <v-col cols="6">
-        <v-btn class="bg-black rounded-lg container-button" height="50">
+        <v-btn class="bg-black rounded-lg container-button" height="50" href="https://www.youtube.com/@jardsonalan" target="_blank">
           <v-icon size="30" icon="fa-brands fa-youtube" id="icon-youtube"/>
         </v-btn>
       </v-col>
       <v-col cols="6">
-        <v-btn class="bg-black rounded-lg container-button" height="50">
+        <v-btn class="bg-black rounded-lg container-button" height="50" href="https://www.linkedin.com/in/jardson-alan/" target="_blank">
           <v-icon size="30" icon="fa-brands fa-linkedin" id="icon-linkedin"/>
         </v-btn>
       </v-col>
