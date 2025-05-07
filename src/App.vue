@@ -19,7 +19,7 @@ import WidgetSite from './views/WidgetSite.vue';
           <v-col cols="6">
             <WidgetSite/>
           </v-col>
-          <v-col cols="6">
+          <v-col cols="6" class="pa-0">
             <WidgetSocialMedia/>
           </v-col>
         </v-row>
