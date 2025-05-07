@@ -2,6 +2,7 @@
 import WidgetInfoUser from './views/WidgetInfoUser.vue';
 import WidgetHardSkills from './views/WidgetHardSkills.vue';
 import WidgetSocialMedia from './views/WidgetSocialMedia.vue';
+import WidgetSite from './views/WidgetSite.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import WidgetSocialMedia from './views/WidgetSocialMedia.vue';
             <WidgetHardSkills/>
           </v-col>
           <v-col cols="6">
+            <WidgetSite/>
           </v-col>
           <v-col cols="6">
             <WidgetSocialMedia/>
