@@ -7,15 +7,16 @@
       <v-col cols="3">
         <!-- Imagem de perfil -->
         <v-img
-          src="#"
+          src="/profile-image.jpg"
+          class="rounded-lg"
           :width="300"
           cover
         />
       </v-col>
-      <v-col cols="9">
+      <v-col cols="9" class="d-flex flex-column justify-center">
         <!-- Nome e Stack -->
-        <span class="d-block text-subtitle-2 font-weight-bold">Jardson Alan</span>
-        <span class="d-block text-caption">Desenvolvedor de Software</span>
+        <span class="text-subtitle-2 font-weight-bold">Jardson Alan</span>
+        <span class="text-caption">Desenvolvedor de Software</span>
       </v-col>
     </v-row>
   </v-container>
