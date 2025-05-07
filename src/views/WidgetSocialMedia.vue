@@ -30,22 +30,25 @@
 
 <style scoped>
 .container-button:hover #icon-tiktok {
-  color: rgb(174, 0, 255);
   transition: .3s;
+  text-shadow: 0 0 2px rgb(255, 255, 255);
 }
 
 .container-button:hover #icon-instagram {
   color: rgb(255, 0, 119);
   transition: .3s;
+  text-shadow: 0 0 2px rgb(255, 0, 119);
 }
 
 .container-button:hover #icon-youtube {
   color: rgb(255, 0, 21);
   transition: .3s;
+  text-shadow: 0 0 2px rgb(255, 0, 21);
 }
 
 .container-button:hover #icon-linkedin {
   color: rgb(0, 68, 255);
   transition: .3s;
+  text-shadow: 0 0 2px rgb(0, 68, 255);
 }
 </style>

@@ -1,5 +1,6 @@
 import './assets/main.css'
 import '@fortawesome/fontawesome-free/css/all.css'
+import '@mdi/font/css/materialdesignicons.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -12,6 +13,7 @@ import { aliases, fa } from 'vuetify/iconsets/fa'
 
 import App from './App.vue'
 import router from './router'
+import { mdi } from 'vuetify/iconsets/mdi'
 
 const app = createApp(App)
 
@@ -23,6 +25,7 @@ const vuetify = createVuetify({
     aliases,
     sets: {
       fa,
+      mdi,
     },
   },
 })

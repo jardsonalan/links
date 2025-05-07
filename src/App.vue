@@ -2,7 +2,8 @@
 import WidgetInfoUser from './views/WidgetInfoUser.vue';
 import WidgetHardSkills from './views/WidgetHardSkills.vue';
 import WidgetSocialMedia from './views/WidgetSocialMedia.vue';
-import WidgetSite from './views/WidgetSite.vue';
+// import WidgetSite from './views/WidgetSite.vue';
+import WidgetGitHub from './views/WidgetGitHub.vue';
 </script>
 
 <template>
@@ -17,7 +18,8 @@ import WidgetSite from './views/WidgetSite.vue';
             <WidgetHardSkills/>
           </v-col>
           <v-col cols="6">
-            <WidgetSite/>
+            <!-- <WidgetSite/> -->
+            <WidgetGitHub/>
           </v-col>
           <v-col cols="6" class="pa-0">
             <WidgetSocialMedia/>
