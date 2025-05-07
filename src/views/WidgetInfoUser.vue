@@ -7,7 +7,7 @@
       <v-col cols="3">
         <!-- Imagem de perfil -->
         <v-img
-          src="/profile-image.jpg"
+          src="profile-image.jpg"
           class="rounded-lg"
           :width="300"
           cover
