@@ -24,7 +24,7 @@
 
 <style scoped>
 .bg-container {
-  background-color: #0c0c0c;
+  background-color: #141414;
 }
 
 .image-profile {
