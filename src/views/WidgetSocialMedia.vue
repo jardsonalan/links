@@ -5,22 +5,22 @@
   <v-container class="rounded-lg pa-0 mt-3 ml-n1">
     <v-row no-gutters class="text-center">
       <v-col cols="6">
-        <v-btn class="bg-black mb-2 rounded-lg container-button" height="60px">
+        <v-btn class="bg-container mb-2 rounded-lg container-button" height="60px">
           <v-icon size="30" icon="fa-brands fa-tiktok" id="icon-tiktok"/>
         </v-btn>
       </v-col>
       <v-col cols="6">
-        <v-btn class="bg-black rounded-lg container-button" height="60px" href="https://www.instagram.com/jardson.alan/" target="_blank">
+        <v-btn class="bg-container rounded-lg container-button" height="60px" href="https://www.instagram.com/jardson.alan/" target="_blank">
           <v-icon size="30" icon="fa-brands fa-instagram" id="icon-instagram"/>
         </v-btn>
       </v-col>
       <v-col cols="6">
-        <v-btn class="bg-black rounded-lg container-button" height="60px" href="https://www.youtube.com/@jardsonalan" target="_blank">
+        <v-btn class="bg-container rounded-lg container-button" height="60px" href="https://www.youtube.com/@jardsonalan" target="_blank">
           <v-icon size="30" icon="fa-brands fa-youtube" id="icon-youtube"/>
         </v-btn>
       </v-col>
       <v-col cols="6">
-        <v-btn class="bg-black rounded-lg container-button" height="60px" href="https://www.linkedin.com/in/jardson-alan/" target="_blank">
+        <v-btn class="bg-container rounded-lg container-button" height="60px" href="https://www.linkedin.com/in/jardson-alan/" target="_blank">
           <v-icon size="30" icon="fa-brands fa-linkedin" id="icon-linkedin"/>
         </v-btn>
       </v-col>
@@ -29,6 +29,14 @@
 </template>
 
 <style scoped>
+.bg-container {
+  background-color: #0c0c0c;
+}
+
+.container-button {
+  color: white;
+}
+
 .container-button:hover #icon-tiktok {
   transition: .3s;
   text-shadow: 0 0 2px rgb(255, 255, 255);

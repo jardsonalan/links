@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <v-container class="bg-black rounded-lg">
+  <v-container class="bg-container rounded-lg">
     <v-row>
       <v-col cols="3">
         <!-- Imagem de perfil -->
@@ -23,6 +23,10 @@
 </template>
 
 <style scoped>
+.bg-container {
+  background-color: #0c0c0c;
+}
+
 .image-profile {
   border: 2px solid rgb(42, 42, 240);
   box-shadow: 0 0 10px rgb(34, 34, 253);

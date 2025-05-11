@@ -9,7 +9,7 @@ import WidgetGitHub from './views/WidgetGitHub.vue';
 <template>
   <v-responsive>
     <v-app class="bg-black">
-      <v-container class="w-100 bg-grey-darken-4 mt-8 rounded-lg container">
+      <v-container class="w-100 bg-black mt-8 rounded-lg container">
         <v-row>
           <v-col cols="12">
             <WidgetInfoUser/>
