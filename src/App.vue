@@ -9,7 +9,7 @@ import WidgetGitHub from './views/WidgetGitHub.vue';
 <template>
   <v-responsive>
     <v-app class="bg-black">
-      <v-container class="w-100 bg-grey-darken-4 mt-8 rounded-lg" max-width="320" min-height="400">
+      <v-container class="w-100 bg-grey-darken-4 mt-8 rounded-lg container">
         <v-row>
           <v-col cols="12">
             <WidgetInfoUser/>
@@ -17,10 +17,10 @@ import WidgetGitHub from './views/WidgetGitHub.vue';
           <v-col cols="12">
             <WidgetHardSkills/>
           </v-col>
-          <v-col cols="6">
+          <v-col cols="7">
             <WidgetGitHub/>
           </v-col>
-          <v-col cols="6" class="pa-0">
+          <v-col cols="5" class="pa-0">
             <WidgetSocialMedia/>
           </v-col>
           <v-col cols="12">
@@ -33,4 +33,8 @@ import WidgetGitHub from './views/WidgetGitHub.vue';
 </template>
 
 <style scoped>
+.container {
+  width: 80%;
+  max-width: 400px;
+}
 </style>

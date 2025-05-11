@@ -8,19 +8,23 @@
         <!-- Imagem de perfil -->
         <v-img
           src="profile-image.jpg"
-          class="rounded-lg"
+          class="rounded-lg image-profile"
           :width="300"
           cover
         />
       </v-col>
       <v-col cols="9" class="d-flex flex-column justify-center">
         <!-- Nome e Stack -->
-        <span class="text-subtitle-2 font-weight-bold">Jardson Alan</span>
-        <span class="text-caption">Desenvolvedor de Software</span>
+        <span class="text-h6 font-weight-bold">Jardson Alan</span>
+        <span class="text-subtitle-2">Desenvolvedor de Software</span>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <style scoped>
+.image-profile {
+  border: 2px solid rgb(42, 42, 240);
+  box-shadow: 0 0 10px rgb(34, 34, 253);
+}
 </style>
